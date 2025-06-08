@@ -1,3 +1,18 @@
+Pastebin
+Search...
+
+Login Sign up
+Advertisement
+
+Guest User
+CYBER-ULLASH
+a guest
+Jun 1st, 2025
+28
+0
+Never
+Not a member of Pastebin yet? Sign Up, it unlocks many cool features!
+4.00 KB | Spirit
 const axios = require("axios");
 const fs = require('fs')
 const baseApiUrl = async () => {
@@ -110,14 +125,4 @@ async function diptoSt(url,pathName) {
   catch (err) {
     throw err;
   }
-}
-Tags: 
-Advertisement
-
-Advertisement
-
-create new paste  /  syntax languages  /  archive  /  faq  /  tools  /  night mode  /  api  /  scraping api  /  news  /  pro
-privacy statement  /  cookies policy  /  terms of service /  security disclosure  /  dmca  /  report abuse  /  contact
-
-Not a member of Pastebin yet?
-Sign Up, it unlocks many cool features! 
+  }
